@@ -18,7 +18,7 @@
 - (void)login;
 - (void)logout;
 
-// 记录ViewController已经被载入过
+// shabi 记录ViewController已经被载入过
 @property (nonatomic, strong)   NSMutableSet  *loadedRootViewControllers;
 
 @end
